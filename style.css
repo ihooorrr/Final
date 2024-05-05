@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 1px 1px 10px rgb(204, 204, 204);
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.all_menu{
+    width: 100%;
+}
+
+.contact-line{
+    background-color: rgb(29, 28, 40);
+    height: 40px;
+    padding-left: 850px;
+}
+
+.contact-line h4{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.contact-line a{
+    color: white;
+    margin-right: 100px;
+    font-size: 15px;
+}
+
+.top_menu{
+    width: 100%;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Myanmar Text';
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 2px;
+    padding-top: 10px;
+    padding-left: 600px;
+}
+
+.top_menu a{
+    color: #202020;
+}
+
+.top_menu a:hover{
+    color: white;
+}
+
+.top_menu li{
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 12.5px;
+}
+
+.top_menu li a:hover{
+    display: inline-block;
+    background-color: rgb(52, 152, 216);
+}
+
+.container{
+    width: 100%;
+    height: 450px;
+    display: block;
+    background-image: url(img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 15px;
+}
+
+.container .image1{
+    background-color: rgba(0, 1, 42, 0.82);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-left: 0; 
+    margin-top: 0;
+}
+
+.image_title{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 150px;
+    font-family: sans-serif;
+}
+
+.image_titles{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-family: times new roman;
+}
+
+.services{
+    padding-top: 50px;
+    margin-left: 80px;
+}
+
+.services h1{
+    color: rgb(51, 51, 51);
+}
+
+.about_us{
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+.about_us h1{
+    color: rgb(51, 51, 51);
+    padding-bottom: 20px;
+}
+
+.gallery{
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+.gallery h1{
+    color: rgb(51, 51, 51);
+    padding-bottom: 20px;
+}
+
+.p{
+    padding-top: 30px;
+    font-family: times new roman;
+}
+
+.teachers{
+    padding-top: 50px;
+    margin-left: 80px;
+}
+
+.teachers h1{
+    color: rgb(51, 51, 51);
+}
+
+.teacher{
+    border: 2px solid rgb(129, 204, 255);
+    position: relative;
+    width: 250px;
+    height: 400px;
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.teacher:hover{
+    border: 2px solid rgb(52, 152, 216);
+    background-color: rgb(52, 152, 216);
+}
+
+.teacher h1{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.text{
+    padding-top: 20px;
+    font-family: times new roman;
+    margin-left: 80px;
+}
+
+.tex{
+    padding-top: 20px;
+    font-family: times new roman;
+    margin-left: 10px;
+}
+
+.news h1{
+    color: rgb(51, 51, 51);
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.news p{
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.blog{
+    display: inline-block;
+    margin-inline: 80px;
+}
+
+.blog h2{
+    margin-left: 80px;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.blog p{
+    margin-top: 15px;
+}
+
+.contact_us{
+    margin-top: 150px;
+    margin-left: 80px;
+    color: rgb(51, 51, 51);
+}
+
+.contactes{
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.send{
+    top: 18px;
+    padding: 15px 90px;
+    margin-left: 330px;
+    margin-top: 20px;
+    background-color: rgb(52, 152, 216);
+    border-style: none;
+}
+
+.send a{
+    color: white;
+}
+
+.contacted{
+    padding: 15px 50px;
+    margin-top: 20px;
+}
+
+.contact-text{
+    padding: 50px 188px;
+    margin-top: 20px;
+}
+
+.service{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    display: inline-block;
+    margin-left: 160px;
+}
+
+.service h1{
+    font-size: 20px;
+}
+
+.services_img{
+    border: 3px solid rgb(129, 204, 255);
+    margin-right: 10px;
+    width: 80px;
+    height: 80px;
+}
